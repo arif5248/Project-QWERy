@@ -10,9 +10,33 @@ body{
     list-style: none;
 
 }
+body a{
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+.fas{
+    padding: 0px 5px;
+}
+.fab{
+    padding: 15px 0px;
+}
+h2{
+    font-size: 35px;
+    line-height: 45px;
+    padding-bottom: 20px;
+}
+.clear{
+    clear: both;
+}
+.para{
+    padding-bottom: 15px;
+}
 .row{
     max-width: 1140px;
     margin: 0 auto;
+    position: relative;
 }
 .half_width{
     width: 50%;
@@ -25,7 +49,244 @@ header{
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
+    position: relative;
 }
+.topbar{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+}
+.topbar a{
+    color: #fff;
+}
+nav ul li{
+    padding: 0px 30px;
+}
+nav ul li:hover{
+    background-color: #353332;
+    border-radius: 15px;
+    transition: .3s;
+    padding: 5px 15px;
+}
+
+
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+.follow_us{
+    width: 100px;
+    padding-left: 20px;
+    
+}
+.follow_us_text{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    padding-bottom: 5px;
+}
+.social_icon{
+    display: flex;
+    flex-direction: column;
+}
+.flexbox1{
+    display: flex;
+    align-items: center;
+    color: #FFC178;
+    margin-bottom: 30px;
+}
+hr{
+    width: 45px;
+    border: 1px solid #FFC178;
+    
+}
+.meta_title{
+    padding:0px 20px;
+}
+.header_title{
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+span{
+    font-weight: 300;
+}
+.scroll_down{
+    text-align: center;
+}
+
+
+.main_section{
+    margin-top: -100px;
+    z-index: 100;
+}
+.holiday{
+    height: 600px;
+    margin-bottom: 100px;
+}
+.holiday_image,
+.holiday_content{
+    width: 100%;
+    height: 600px;
+}
+.holiday_content{
+    padding: 115px 50px 0px 100px;
+}
+.read_more{
+    color: #FFC178;
+}
+
+
+.steady_section{
+    margin-bottom: 100px;
+}
+.steady_section .row{
+    background-image: url(./images/ClimbSection.png);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+.steady_content{
+    width: 800px;
+    height: 250px;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+    left: 15%;
+}
+.flexbox2{
+    display: flex;
+    align-items: center;
+    color: #FFC178;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+
+.culture_image,
+.culture_content{
+    width: 100%;
+    height: 600px;
+}
+.culture_content{
+    padding: 115px 50px 0px 0px;
+}
+
+.footer_topbar{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.footer_topbar a{
+    color: #fff;
+}
+.explore{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    background-color: #FFC178;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #f7a84f;
+    transition: .3s;
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+.explore p{
+    padding-right: 15px;
+}
+.hr_full_width{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+.footer-content{
+    margin-bottom: 60px;
+}
+input{
+    height: 32px;
+    width: 250px;
+    background-color: #000000;
+    border: 0px solid #000000;
+    border-bottom: 1px solid #fff;
+}
+.mail_box{
+    padding-top: 20px;
+}
+.btn_mail{
+    background-color: #FFC178;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+.btn_mail:hover{
+    background-color: #f7a84f;
+    padding: 7px 15px;
+    border-radius: 15px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+.footer_box2{
+    display: flex;
+}
+.sub_box{
+    padding: 0px 40px;
+}
+h4{
+    color: #f7a84f;
+    padding-bottom: 15px;
+}
+.item a{
+    font-size: 14px;
+    line-height: 5px;
+}
+.item li:hover{
+    text-decoration: underline;
+    color: #f7a84f;
+}
+.item li:hover a{
+    color: #f7a84f;
+}
+.footer_bottombar{
+    display: flex;
+    justify-content: space-between;
+}
+.terms_privacy{
+    display: flex;
+}
+.terms_privacy a{ 
+    padding-right: 20px;
+    font-size: 14px;
+}
+.terms_privacy a:hover{
+    text-decoration: underline;
+    color: #f7a84f;
+}
+.footer_social_icon i{
+    padding-left: 20px;
+}
+.copyright{
+    padding-top: 60px;
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 
 
 
