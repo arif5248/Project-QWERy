@@ -1,3 +1,31 @@
 body{
     background-color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.half_width{
+    width: 50%;
+    margin: 0 auto;
+    float: left;
+}
+header{
+    background-image: url(./images/headerBackground.png);
+    height: 1105px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+
